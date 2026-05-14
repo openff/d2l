@@ -1,1 +1,41 @@
-01_Data/01_DataSet_FashionMNIST/
+# ===== 数据集 =====
+01_Data/
+01_data/
+california-house-prices/*.csv
+
+# ===== Jupyter Notebook =====
+.ipynb_checkpoints/
+
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+*.egg
+dist/
+build/
+
+# ===== 虚拟环境 =====
+.venv/
+venv/
+env/
+
+# ===== 模型权重/输出 =====
+*.pth
+*.pt
+*.onnx
+*.pkl
+
+# ===== 系统文件 =====
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# ===== IDE =====
+.vscode/
+.idea/
+
+# ===== 图片输出（如需保留可注释掉）=====
+# image/

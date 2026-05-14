@@ -1,0 +1,31 @@
+# Python 3.8.20
+# 本项目依赖于 GPU（CUDA 12.1）
+# 部署服务器需安装 NVIDIA 驱动 >= 530，确保支持 CUDA 12.1
+# 验证 GPU 可用：python -c "import torch; print(torch.cuda.is_available())"
+
+# PyTorch + CUDA 12.1（GPU 版本）
+torch==2.4.1
+torchvision==0.19.1
+torchaudio==2.4.1
+
+# d2l 教材配套库
+d2l==0.17.5
+
+# 科学计算
+numpy==1.21.5
+pandas==1.2.4
+matplotlib==3.5.1
+sympy==1.13.3
+
+# Jupyter 环境
+jupyter==1.0.0
+jupyterlab==3.5.3
+notebook==6.5.7
+ipywidgets==8.1.8
+
+# 图像处理
+pillow==10.4.0
+
+# 其他依赖
+requests==2.25.1
+PyYAML==6.0.3
